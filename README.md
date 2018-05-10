@@ -21,5 +21,6 @@ To get started, we'll assume you're deploying from a Mac with [Homebrew](https:/
   terraform init
   terraform apply
   ```
- 
+The server init log and OpenVPN client files will be saved in a tar file on your desktop.  Install them using e.g. [TunnelBlick](https://tunnelblick.net/)
+
 That's it!  If you want to destroy your server, simply run ```terraform destroy```.
